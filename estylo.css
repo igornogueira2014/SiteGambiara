@@ -43,10 +43,11 @@ body {
 
  .cabecalho_menu ul li {
     background-color: transparent;
+   
 }
 
 .cabecalho_menu ul li:hover {
-    background-color: silver;
+    background-color: silver;  
 }
 
 .cabecalho_menu ul li a{
@@ -69,18 +70,16 @@ body {
 .conteudoSegundo {
    display: flex;
    flex-direction: row;
-   width: 50vw;
-   align-items: flex-end;
-   align-content: center;
+   width: 100vw;
+   align-items:flex-end ; /*aqui deixa a maleta na altura dos pes*/ 
    justify-content: center;
-   justify-content: space-around;
    padding: 100px;
-   
 }
 
-
-.conteudoTerceiro {
-   text-align: center;
+.conteudoTerceiro {  /*Quem Somos */
+    color: yellow;
+    text-align: center;
+    padding: 400;
 }
 
 .paragrafo_terceiro {

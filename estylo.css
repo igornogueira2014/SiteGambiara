@@ -17,6 +17,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .cabecalho_titulo {
@@ -79,11 +80,39 @@ body {
 .conteudoTerceiro {  /*Quem Somos */
     color: yellow;
     text-align: center;
-    padding: 400;
+    padding: 120px;
 }
 
 .paragrafo_terceiro {
    color:rgb(212, 212, 15);
+   padding: 20px;
+}
+
+.conteudoEquipe {
+    color: yellow;
+    text-align: center;
+    padding: 90px;
+}
+
+.conteudoEquipe_time {
+    color: orange;
+}
+.conteudoEquipe_time_chefe {
+    padding: 30px;
+    color: orange;
+}
+.conteudoEquipe_time_chefeOperacional {
+    color: orange;
+    padding: 20px;
+}
+.conteudoEquipe_time_chefeMarketing {
+    color: orange;
+    padding: 40px;
+}
+
+.conteudoContato {
+    color: yellow;
+    text-align: center;
 }
 
 .rodape {

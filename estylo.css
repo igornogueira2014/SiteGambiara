@@ -38,7 +38,7 @@ body {
     justify-content: space-around;
     list-style-type: none; 
     padding: -100%;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 17px;
 }
 
@@ -50,7 +50,7 @@ body {
     background-color: silver;  
 }
 
-.cabecalho_menu ul li a{
+.cabecalho_menu ul li a {
     color: black;
     padding: 5px;
     display: block;
@@ -114,8 +114,27 @@ body {
     text-align: center;
 }
 
-.rodape {
-    text-align: center;
+.redes ul {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly;
+    padding: 20px 20vw;
+    align-items: center;
+    text-decoration: none;
+}
+
+.redes ul li {
+    list-style: none;
+}
+
+.redes ul a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.redes ul li a img {
+    text-decoration: none;
 }
 
 .botao {
@@ -130,7 +149,6 @@ body {
     font-weight: 300;
     font-size: 20px;
 }
-
-#rodpe_botao {
+.rodape {
+    text-align: center;
 }
-
